@@ -1,11 +1,40 @@
+aid: jsr-303
 name: JSR-303
-description: JSR-303 is a technology or concept used in computing and information
-  technology to address specific technical challenges. It provides capabilities that
-  help practitioners build, manage, or improve systems and processes in their domain.
-url: null
+description: >-
+  JSR-303 (Bean Validation) is a Java specification that defines a metadata
+  model and API for JavaBean validation. It provides a standard way to define
+  validation constraints on Java objects using annotations, enabling developers
+  to enforce business rules and data integrity at the object level.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- JSR-303
-created: '2025'
-modified: '2025'
-apis: []
-common: []
+  - JSR-303
+  - Java
+  - Bean Validation
+  - Annotations
+url: https://raw.githubusercontent.com/api-evangelist/jsr-303/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: jsr-303:bean-validation
+    name: Jakarta Bean Validation
+    description: >-
+      The Jakarta Bean Validation specification (formerly JSR-303) for
+      defining and enforcing validation constraints on Java beans.
+    humanURL: https://jakarta.ee/specifications/bean-validation/
+    tags:
+      - Bean Validation
+      - Java
+      - Annotations
+    properties:
+      - type: Documentation
+        url: https://jakarta.ee/specifications/bean-validation/
+common:
+  - type: Website
+    url: https://jakarta.ee/specifications/bean-validation/
+  - type: Documentation
+    url: https://jakarta.ee/specifications/bean-validation/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

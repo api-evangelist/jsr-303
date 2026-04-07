@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - JSR-303
-  - Java
-  - Bean Validation
   - Annotations
+  - Bean Validation
+  - Java
+  - JSR-303
 url: https://raw.githubusercontent.com/api-evangelist/jsr-303/refs/heads/main/apis.yml
 created: '2025-01-01'
 modified: '2026-03-16'
@@ -24,9 +24,9 @@ apis:
       defining and enforcing validation constraints on Java beans.
     humanURL: https://jakarta.ee/specifications/bean-validation/
     tags:
+      - Annotations
       - Bean Validation
       - Java
-      - Annotations
     properties:
       - type: Documentation
         url: https://jakarta.ee/specifications/bean-validation/

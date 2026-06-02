@@ -1,0 +1,8 @@
+---
+title: Jakarta Servlet, Jakarta Faces and Jakarta Server Pages Explained
+url: https://jakarta.ee/learn/specification-guides/servlet-faces-and-server-pages-explained/
+date: '2024-02-22'
+author: webdev@eclipse-foundation.org (Eclipse Foundation)
+feed_url: https://jakarta.ee/index.xml
+---
+The Jakarta EE Platform offers a number of APIs that can be used to create web based user interfaces. The most mature and perhaps most well known is the Jakarta Servlet specification. Jakarta Servlet was first released in 1996, and it enables Java developers to create web pages containing dynamic web content using pure Java. The specification has changed much over the years and it is able to interact with modern technologies and comply with the modern era of web technologies with features such as HTTP/2. Jakarta Server Pages (JSP) was first released in 1999, and it enables developers to create web based user interfaces using a mixture of HTML markup and special Jakarta Servlet tags. JSP enables easy creation of dynamic web views, and it has also made great progressions over the years to position it for standard model-view-controller development. Model-View-Controller development specifies clear separation of view code from business logic, and in the early years of JSP it was common to see business logic intermixed with HTML code. To that end, Jakarta Faces was initially released in 2004, and it provides the ability to develop web based user interfaces with XML for the view and a corresponding Java class to contain the business logic for the view. This specification has adapted over the years to continue as a relevant web based user interface API for modern times.

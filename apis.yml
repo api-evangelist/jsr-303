@@ -43,12 +43,16 @@ apis:
       - type: Reference
         url: https://beanvalidation.org/
 common:
+  - type: DomainSecurity
+    url: security/jsr-303-domain-security.yml
   - type: Website
     url: https://jakarta.ee/specifications/bean-validation/
   - type: Documentation
     url: https://jakarta.ee/specifications/bean-validation/
   - type: Specification
     url: https://jakarta.ee/specifications/bean-validation/3.1/
+  - url: https://jakarta.ee/blogs/index.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

@@ -33,6 +33,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jsr-303.png
 tags:
+  - Annotation
+  - Bean Validation
+  - Java
+  - JSR-303
+  - Jakarta EE
+  - Validation
+tags_raw:
   - Annotations
   - Bean Validation
   - Java
@@ -54,6 +61,11 @@ apis:
       Current version 3.1 aligns with Jakarta EE 11.
     humanURL: https://jakarta.ee/specifications/bean-validation/
     tags:
+      - Annotation
+      - Bean Validation
+      - Java
+      - Jakarta EE
+    tags_raw:
       - Annotations
       - Bean Validation
       - Java

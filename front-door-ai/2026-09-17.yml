@@ -1,0 +1,32 @@
+# Front Door AI Index — jsr-303 — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: jsr-303
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: jakarta.ee
+  final_host: jakarta.ee
+  ownership: unresolved
+  owner: null
+  shares_host_with:
+  - jakarta-ee
+  - java-ee
+  - jax-ws
+  - jms
+  - jpa
+  - jsf
+  - json-binding
+  - json-processing
+  inherited_from: null
+  verdict: silent
+  score: null
+  host_score: 0
+  density: null
+  words: 1560
+  tiers:
+    agentic: 0
+    core: 0
+    model: 0
+  ambiguous: 0
+  top_terms: null

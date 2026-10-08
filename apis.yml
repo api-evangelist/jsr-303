@@ -78,6 +78,12 @@ apis:
       - type: Reference
         url: https://beanvalidation.org/
 common:
+  - type: Plans
+    url: plans/jsr-303-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/jsr-303-rate-limits.yml
+  - type: FinOps
+    url: finops/jsr-303-finops.yml
   - type: DomainSecurity
     url: security/jsr-303-domain-security.yml
   - type: Website

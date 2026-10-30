@@ -1,4 +1,4 @@
-# JSR-303 (jsr-303)
+# JSR-303
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,49 +66,101 @@
 
 JSR-303 (Bean Validation) is a Java specification that defines a metadata model and API for JavaBean validation. It provides a standard way to define validation constraints on Java objects using annotations, enabling developers to enforce business rules and data integrity at the object level. Now standardized as Jakarta Validation, with version 3.1 released for Jakarta EE 11 and version 4.0 under development for Jakarta EE 12.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/jsr-303/refs/heads/main/apis.yml)
+**Areas:** Annotation · Bean Validation · Java · JSR-303 · Jakarta EE · Validation
 
-## Scope
+## JSR-303 on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for JSR-303 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jsr-303/](https://apis.io/providers/jsr-303/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Annotations, Bean Validation, Java, JSR-303, Jakarta EE, Validation
+- [Jakarta Validation](https://apis.io/apis/jsr-303/bean-validation/) — The Jakarta Validation specification (originally JSR-303, then JSR-349, JSR-380) for defining and enforcing validation constraints on Java objects. Provides…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Jakarta Validation
+Authentication, trust centre, and vulnerability disclosure.
 
-The Jakarta Validation specification (originally JSR-303, then JSR-349, JSR-380) for defining and enforcing validation constraints on Java objects. Provides object level constraint declaration and validation facilities, plus a constraint metadata repository and query API. Current version 3.1 aligns with Jakarta EE 11.
+- [Jsr 303 Domain Security](https://apis.io/security/jsr-303/jsr-303-domain-security/)
 
-**Human URL:** [https://jakarta.ee/specifications/bean-validation/](https://jakarta.ee/specifications/bean-validation/)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Annotations, Bean Validation, Java, Jakarta EE
+- [Jsr 303 Plans Pricing](https://apis.io/plans/jsr-303/jsr-303-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://jakarta.ee/specifications/bean-validation/)
-- [Specification](https://jakarta.ee/specifications/bean-validation/3.1/)
-- [Reference](https://beanvalidation.org/)
+Published request limits.
 
-## Common Properties
+- [Jsr 303 Rate Limits](https://apis.io/rate-limits/jsr-303/jsr-303-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Jsr 303 Finops](https://apis.io/finops/jsr-303/jsr-303-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://jakarta.ee/specifications/bean-validation/)
 - [Documentation](https://jakarta.ee/specifications/bean-validation/)
-- [Specification](https://jakarta.ee/specifications/bean-validation/3.1/)
+- [Blog](https://jakarta.ee/blogs/index.xml)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 10.7** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jsr-303/](https://apis.io/providers/jsr-303/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for JSR-303: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jsr-303/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
